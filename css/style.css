@@ -1,0 +1,104 @@
+* {margin: 0px;
+    padding: 0px;}
+
+.container {width: 960px;
+    margin: auto;}
+
+.headleft {margin-top:25px;
+        width: 50%;
+        float: left;
+        padding: 5px;
+        font-family: 'Marck Script', cursive;
+        font-size:33px;
+        height: 70px;
+        color:#F2B866;
+        text-shadow: 1px 1px black;}
+
+.headright {margin-top:50px;
+        width: 44%;
+        float: right;
+        padding: 5px;
+        height: 70px;
+        vertical-align: bottom;}
+
+.menu ul {display: table;
+    list-style: none;
+    background-color: rgba(255,255,255,0);
+    text-align: right;}
+
+.menu li {display: table-cell;
+    font-family: 'Bangers', cursive;
+    width: 140px;
+    color: black;
+    font-size: 30px;}
+
+.menu a {text-decoration: none;}
+
+/*Create some animation here*/
+.index-content {background-image: url(../images/three-1325105.png);
+            background-position: center top;  
+            background-repeat: no-repeat;
+            height: 720px;
+            clear:both;}
+
+.index-content h1 {text-align: center;
+                font-family: 'Indie Flower', cursive;
+                margin-top: 40px;}
+
+.home-content {width: 960px;
+            clear: both;
+            margin-top:25px;
+            padding: 20px;}
+
+.contact-content {width: 960px;
+            clear: both;
+            margin-top:25px;
+            padding: 20px;}
+
+.sidebar p {font-family: Verdana;
+            font-size: 26px;
+            line-height: 50px;
+            color: black;
+            margin-bottom:20px;}
+
+.sidebar h3 {color: red;
+            font-family: 'Bangers', cursive;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 38px;
+            text-align: center;
+            text-shadow: 2px 2px black;}
+
+.home-content {width: 960px;
+            float: clear;
+            margin-top: 1px;}
+
+.home-sidebar {float: left;
+            width: 490px;
+            height: 700px;}
+
+#about-fares {float: right;
+            width: 450px;
+            height: 700px;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: left;
+            color: black;
+            font-family: 'Pacifico', cursive;}
+
+.sidebar {float: left;
+        width: 500px;
+        height: 500px;
+        text-align: center;}
+
+.sidebar p {font-family: 'Indie Flower', cursive;
+            font-size: 34px;
+            line-height: 47px;}
+
+.sidebar img {align-content: center;}
+
+.sidebar a {text-align: center;}
+
+#img {float: right;
+    width: 450px;
+    height: 530px;}
