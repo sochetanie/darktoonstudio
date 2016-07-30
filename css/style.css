@@ -34,6 +34,8 @@
 
 .menu a {text-decoration: none;}
 
+.gallery {background-color: #1a181d;}
+
 /*Create some animation here*/
 .home {background-image: url(../images/background.jpg);}
 
