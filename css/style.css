@@ -35,20 +35,28 @@
 .menu a {text-decoration: none;}
 
 /*Create some animation here*/
-.index-content {background-image: url(../images/three-1325105.png);
+.home {background-image: url(../images/background.jpg);}
+
+.home-content {background-image: url(../images/faresbackground960.jpg);
             background-position: center top;  
             background-repeat: no-repeat;
-            height: 720px;
-            clear:both;}
-
-.index-content h1 {text-align: center;
-                font-family: 'Indie Flower', cursive;
-                margin-top: 40px;}
-
-.home-content {width: 960px;
+            width: 960px;
             clear: both;
             margin-top:25px;
             padding: 20px;}
+
+.about {background-image: url(../images/faresbackground.jpg);
+            background-position: center top;  
+            background-repeat: no-repeat;}
+
+.index-content h1 {width: 500px;
+                float:left;
+                color: deeppink;
+                margin-top: 150px;
+                text-align: center;
+                line-height: 70px;
+                font-size: 50px;
+                font-family: 'Indie Flower', cursive;}
 
 .contact-content {width: 960px;
             clear: both;
@@ -74,16 +82,16 @@
             margin-top: 1px;}
 
 .home-sidebar {float: left;
-            width: 490px;
+            width: 350px;
             height: 700px;}
 
 #about-fares {float: right;
-            width: 450px;
+            width: 550px;
             height: 700px;
             font-size: 25px;
             line-height: 30px;
             text-align: left;
-            color: black;
+            color: #fba848;
             font-family: 'Pacifico', cursive;}
 
 .sidebar {float: left;
@@ -98,7 +106,3 @@
 .sidebar img {align-content: center;}
 
 .sidebar a {text-align: center;}
-
-#img {float: right;
-    width: 450px;
-    height: 530px;}
