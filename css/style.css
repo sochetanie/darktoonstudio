@@ -88,19 +88,20 @@
 .sidebar {float: left;
         width: 500px;
         height: 500px;
-        text-align: center;}
+        text-align: center;
+        margin-top: 20px;}
 
 .sidebar h3 {color: red;
             font-family: 'Bangers', cursive;
-            margin-top: 20px;
-            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-bottom: 45px;
             font-size: 38px;
             text-align: center;
             text-shadow: 2px 2px black;}
 
 .sidebar p {font-family: 'Indie Flower', cursive;
             font-size: 34px;
-            line-height: 50px;
+            line-height: 45px;
             color: black;
             margin-bottom:20px;}
 
