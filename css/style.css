@@ -39,6 +39,8 @@
 /*Create some animation here*/
 .home {background-image: url(../images/background.jpg);}
 
+.contact {background-image: url(..//images/background-texture-889036_960_720.jpg);}
+
 .home-content {background-image: url(../images/);
             background-position: center top;  
             background-repeat: no-repeat;
@@ -73,8 +75,8 @@
 
 .sidebar h3 {color: red;
             font-family: 'Bangers', cursive;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin-top: 20px;
+            margin-bottom: 50px;
             font-size: 38px;
             text-align: center;
             text-shadow: 2px 2px black;}
