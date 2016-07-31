@@ -34,12 +34,13 @@
 
 .menu a {text-decoration: none;}
 
-.gallery {background-color: #1a181d;}
+.gallery {background-image: url(../images/gallery-backg2.jpg);
+            background-repeat: no-repeat;}
 
 /*Create some animation here*/
 .home {background-image: url(../images/background.jpg);}
-
-.contact {background-image: url(..//images/background-texture-889036_960_720.jpg);}
+        
+.contact {background-image: url(../images/contact-backg.jpg);}
 
 .home-content {background-image: url(../images/);
             background-position: center top;  
@@ -49,7 +50,7 @@
             margin-top:25px;
             padding: 20px;}
 
-.about {background-image: url(../images/faresbackground.jpg);
+.about {background-image: url(../images/faresbackground-kid.jpg);
             background-position: center top;  
             background-repeat: no-repeat;}
 
@@ -67,20 +68,6 @@
             margin-top:25px;
             padding: 20px;}
 
-.sidebar p {font-family: Verdana;
-            font-size: 26px;
-            line-height: 50px;
-            color: black;
-            margin-bottom:20px;}
-
-.sidebar h3 {color: red;
-            font-family: 'Bangers', cursive;
-            margin-top: 20px;
-            margin-bottom: 50px;
-            font-size: 38px;
-            text-align: center;
-            text-shadow: 2px 2px black;}
-
 .home-content {width: 960px;
             float: clear;
             margin-top: 1px;}
@@ -95,17 +82,27 @@
             font-size: 30px;
             line-height: 30px;
             text-align: left;
-            color: #fba848;
-            font-family: 'Indie Flower', cursive;}
+            color: #ff4141;
+            font-family: 'Hammersmith One', sans-serif;}
 
 .sidebar {float: left;
         width: 500px;
         height: 500px;
         text-align: center;}
 
+.sidebar h3 {color: red;
+            font-family: 'Bangers', cursive;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 38px;
+            text-align: center;
+            text-shadow: 2px 2px black;}
+
 .sidebar p {font-family: 'Indie Flower', cursive;
             font-size: 34px;
-            line-height: 47px;}
+            line-height: 50px;
+            color: black;
+            margin-bottom:20px;}
 
 .sidebar img {align-content: center;}
 
