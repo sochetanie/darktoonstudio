@@ -1,110 +1,134 @@
 * {margin: 0px;
     padding: 0px;}
 
-.container {width: 960px;
-    margin: auto;}
+.heading {
+    background-image: url(../images/gallery-backg2-1.jpg);
+    height: 260px;
+}
 
-.headleft {margin-top:25px;
-        width: 50%;
-        float: left;
-        padding: 5px;
-        font-family: 'Marck Script', cursive;
-        font-size:33px;
-        height: 70px;
-        color:#F2B866;
-        text-shadow: 1px 1px black;}
+h1 {
+    padding-top: 15px;
+    font-size: 130px;
+    text-align: center;
+    height: 120px;
+    font-family: 'Marck Script', cursive;
+    color: #FFD342;
+    text-shadow: 1px 1px black;
+}
 
-.headright {margin-top:50px;
-        width: 44%;
-        float: right;
-        padding: 5px;
-        height: 70px;
-        vertical-align: bottom;}
-
-.menu ul {display: table;
-    list-style: none;
-    background-color: rgba(255,255,255,0);
-    text-align: right;}
-
-.menu li {display: table-cell;
-    font-family: 'Bangers', cursive;
-    width: 140px;
+h2 {
     color: black;
-    font-size: 30px;}
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Delius Unicase', cursive;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
 
-.menu a {text-decoration: none;}
+.nav > li > a {
+    background-color: #fe4042;
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 35px;
+}
 
-.gallery {background-image: url(../images/gallery-backg2.jpg);
-            background-repeat: no-repeat;}
+.navbar .nav-pills > .active > a {
+    background-color: #fe4042;
+    color: black;
+}
+    
+.navbar .nav-pills  a:hover {
+    background-color: white;
+    color: black;
+}
 
-/*Create some animation here*/
-.home {background-image: url(../images/background.jpg);}
-        
-.contact {background-image: url(../images/contact-backg.jpg);}
+.navbar .nav-pills > .active > a:hover {
+    background-color: white;
+    color: black;
+}
 
-.home-content {background-image: url(../images/);
-            background-position: center top;  
-            background-repeat: no-repeat;
-            width: 960px;
-            clear: both;
-            margin-top:25px;
-            padding: 20px;}
+.container {
+    background-image: url(../images/about-backg.jpg);
+    background-repeat: no-repeat;
+    background-size: ;
+    
+}
 
-.about {background-image: url(../images/faresbackground-kid.jpg);
-            background-position: center top;  
-            background-repeat: no-repeat;}
+.about {
+    text-align: center;
+    margin-top: 15px;
+    height: 510px;
+}
 
-.index-content h1 {width: 500px;
-                float:left;
-                color: deeppink;
-                margin-top: 150px;
-                text-align: center;
-                line-height: 70px;
-                font-size: 50px;
-                font-family: 'Indie Flower', cursive;}
+.about p {
+    text-align: center;
+    font-size: 23px;
+    line-height: 40px;
+    color: #4d6577;
+    font-family: 'Libre Baskerville', serif;
+}
 
-.contact-content {width: 960px;
-            clear: both;
-            margin-top:25px;
-            padding: 20px;}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
 
-.home-content {width: 960px;
-            float: clear;
-            margin-top: 1px;}
+#myCarousel {
+    margin-top: 28px;
+    margin-bottom: 50px;
+}
 
-.home-sidebar {float: left;
-            width: 350px;
-            height: 700px;}
+.contactUS p {
+    margin-top: 20px;
+    color: #fe4042;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 3px 1px black;
+}
 
-#about-fares {float: right;
-            width: 550px;
-            height: 700px;
-            font-size: 30px;
-            line-height: 30px;
-            text-align: left;
-            color: #ff4141;
-            font-family: 'Hammersmith One', sans-serif;}
+.contactUS img {
+    text-align: right;
+}
 
-.sidebar {float: left;
-        width: 500px;
-        height: 500px;
-        text-align: center;
-        margin-top: 20px;}
+.contactUS {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
-.sidebar h3 {color: red;
-            font-family: 'Bangers', cursive;
-            margin-top: 30px;
-            margin-bottom: 45px;
-            font-size: 38px;
-            text-align: center;
-            text-shadow: 2px 2px black;}
+.nothing {
+    height: 200px;
+}
 
-.sidebar p {font-family: 'Indie Flower', cursive;
-            font-size: 34px;
-            line-height: 45px;
-            color: black;
-            margin-bottom:20px;}
+.Space {
+    height: 20px;
+}
 
-.sidebar img {align-content: center;}
+.form-control {
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
-.sidebar a {text-align: center;}
+.glyphicon {
+    font-size: 25px;
+}
+
+.col-md-3 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.col-md-3 img {
+    margin-left: 60px;
+}
+
+.col-md-6 img {
+    margin-top: 18px;
+}
+
+.col-md-6 > btn > a:hover {
+       background-color: #fe4042;
+}
+
+
