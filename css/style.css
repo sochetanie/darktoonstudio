@@ -7,8 +7,8 @@
 }
 
 h1 {
-    padding-top: 15px;
-    font-size: 130px;
+    padding-top: 10px;
+    font-size: 140px;
     text-align: center;
     height: 120px;
     font-family: 'Marck Script', cursive;
@@ -19,9 +19,9 @@ h1 {
 h2 {
     color: black;
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     font-family: 'Delius Unicase', cursive;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -48,30 +48,34 @@ h2 {
 }
 
 .container {
+    width: 100%;
     background-image: url(../images/about-backg.jpg);
     background-repeat: no-repeat;
-    background-size: ;
-    
 }
 
 .about {
     text-align: center;
-    margin-top: 15px;
     height: 510px;
 }
 
 .about p {
     text-align: center;
-    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
     line-height: 40px;
     color: #4d6577;
+    font-weight: bold;
     font-family: 'Libre Baskerville', serif;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
+    width:600px;
+    height:550px;
+    margin-left: 500px;
+    background-image: url(../images/.jpg);
+    position: relative;
 }
 
 #myCarousel {
@@ -86,6 +90,12 @@ h2 {
     font-size: 40px;
     text-align: left;
     text-shadow: 3px 1px black;
+}
+
+.contactUS p:nth-child(2) {
+    background-image: url(../images/bunny.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .contactUS img {
@@ -128,7 +138,5 @@ h2 {
 }
 
 .col-md-6 > btn > a:hover {
-       background-color: #fe4042;
+    background-color: #fe4042;
 }
-
-
